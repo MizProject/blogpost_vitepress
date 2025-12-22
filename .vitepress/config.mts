@@ -69,7 +69,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'VitePress Documentation Samples',
+        text: 'VitePress Documentation Samples (i intended this to be here btw)',
         items: [
           { text: 'Markdown Examples', link: '/examples/markdown-examples' },
           { text: 'Runtime API Examples', link: '/examples/api-examples' }
