@@ -4,6 +4,7 @@ import { Theme } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/blogpost_vitepress/',
   head: [
     // [
     //   'link',
