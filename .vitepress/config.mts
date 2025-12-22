@@ -5,7 +5,14 @@ import { Theme } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   head: [
-
+    // [
+    //   'link',
+    //   { rel:'preload', href: '/fonts/Outfit-VariableFont_wght.ttf', as: 'font', type: 'font/ttf', crossorigin: 'anonymous' }
+    // ],
+    [
+      'link',
+      { rel: 'icon', href: '/mpzlg.svg' }
+    ],
   ],
   srcDir: "markdown",
   lang: 'en-US',
