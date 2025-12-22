@@ -1,4 +1,4 @@
-name: Fallback Deploy
+name: Local Deploy
 
 on:
     workflow_dispatch:
@@ -21,17 +21,17 @@ jobs:
               uses: actions/checkout@v5
               with:
                 fetch-depth: 0
-            - name: Setup NodeJS
-              uses: actions/setup-node@v6
-              with:
-                node-version: 24
-                cache: npm
-            - name: Setup Pages
-              uses: actions/configure-pages@v4
-            - name: Install dependencies
-              run: npm install
-            - name: Build Page
-              run: npm run docs:build
+            # - name: Setup NodeJS
+            #   uses: actions/setup-node@v6
+            #   with:
+            #     node-version: 24
+            #     cache: npm
+            # - name: Setup Pages
+            #   uses: actions/configure-pages@v4
+            # - name: Install dependencies
+            #   run: npm install
+            # - name: Build Page
+            #   run: npm run docs:build
             - name: Upload Artifact
               uses: actions/upload-pages-artifact@v3
               with:
