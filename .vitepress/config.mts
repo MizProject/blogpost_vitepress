@@ -22,7 +22,7 @@ export default defineConfig({
       copyright: 'Copyright © 2025-present. Mizumo-prjkt!'
     },
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/images/mpzlg.svg',
+    logo: '/icons/mpzlg.svg',
     // siteTitle: false,
     nav: [
       { text: 'Home', link: '/' },

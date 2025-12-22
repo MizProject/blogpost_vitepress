@@ -7,7 +7,7 @@ hero:
   text: "A Blogpost related to tech and writing"
   tagline: A Filipino Dev who does programming and writing
   image:
-    src: /images/mizproject2026.svg
+    src: /icons/mizproject2026.svg
   actions:
     - theme: brand
       text: News and Posts
