@@ -1,7 +1,7 @@
 name: Fallback Deploy
 
 on:
-    workfloW_dispatch:
+    workflow_dispatch:
 
 permissions:
     contents: read
