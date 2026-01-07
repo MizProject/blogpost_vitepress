@@ -58,6 +58,7 @@ export default defineConfig({
         text: 'Guides (Under construction!)',
         items: [
           { text: 'Guide Metaindex', link: '/guides/guides_landing'},
+          { text: 'How to apply KernelSU Patches to kernel', link: '/guides/how_to_apply_ksu_patches' },
           { text: 'How to build a Samsung Android kernel?' },
           { text: 'How to apply patches?' },
           { text: 'How to install GSI on a Samsung Device?' }
