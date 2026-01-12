@@ -65,6 +65,12 @@ export default defineConfig({
         ]
       },
       {
+        text: 'GSI Compatibility Lists',
+        items: [
+          { text: 'Device Lists', link: '/gsi/compat/landing.md' }
+        ]
+      },
+      {
         text: "Prepatched Super Images for Samsung Devices",
         items: [
           { text: 'Files', link: '/gsi/patched_gsi'}
